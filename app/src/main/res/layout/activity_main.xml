@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my unfinished app"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_marginTop="16dp"/>
+    
+    <Button
+        android:id="@+id/btSocial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social"/>
+
+    <Button
+        android:id="@+id/btOurMission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Mission"/>
+
+</LinearLayout>
